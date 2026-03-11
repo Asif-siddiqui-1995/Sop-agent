@@ -8,9 +8,7 @@ dotenv.config();
 const testVectorSearch = async () => {
     try {
         console.log("🔗 Connecting to MongoDB...");
-        await mongoose.connect(
-            `mongodb+srv://OpsMindUser:46nHuhfTWtXXmIY6@cluster0.w1htpxl.mongodb.net/OpsMindAI?retryWrites=true&w=majority`,
-        );
+
         console.log("✅ Connected to MongoDB");
 
         // Test query
